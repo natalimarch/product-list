@@ -1,0 +1,98 @@
+@import "../../shared//styles/common.scss";
+
+.item-container {
+  padding: 100px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.wrap {
+  width: 1185px;
+  margin-top: 160px;
+  margin-left: auto;
+  display: flex;
+  padding: 64px 5px 120px;
+}
+
+.item-image {
+  border-radius: 30px;
+}
+
+.item-img {
+  display: block;
+  max-width: 448px;
+  border-radius: 30px;
+}
+
+.item-description {
+  margin-left: 136px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.item-title {
+  margin-bottom: 61px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.5;
+
+  color: #414141;
+}
+
+.item-text {
+  margin-right: auto;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.5;
+
+  color: #414141;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 5px;
+  color: #414141;
+  background: #fff;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 500;
+  border: #414141 solid 1px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: #ffcc26;
+}
+
+.item-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-btn {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.zoom-btn {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.image-zoom-group {
+  text-align: center;
+}
